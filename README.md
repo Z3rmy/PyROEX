@@ -15,7 +15,7 @@
    
     Extract PyROEX.zip using 【7z x PyROEX.zip】 (Windows cmd) or 【unzip PyROEX.zip -d target_folder】 (Linux/Mac terminal).
     Navigate to src folder in terminal and run 【pip install -r requirements.txt】.
-    Run 【Python main.py】 to start the software.、
+    Run 【Python main.py】 to start the software.
 
 5. Functions
 
@@ -25,13 +25,14 @@
         Set SNR thresholds.
         Plot original data or data changing rate.
 
-    3.2 Quality Checking
+    3.2 Data Combination
 
-        Select file type, set SNR threshold.
-        Plot data combinations (MW, GF, IF) for quality check.
-        Click "Data Integrity" to generate LOG folder with integrity files.
+        Plot data combinations (MW, GF, IF, DIF) for quality check.
 
-    3.3 File Editing
+   3.3 Data Integrity
+      Check the completeness of the data.
 
+    3.3 File Cutting
+   
         Input time parameters and output file name.
-        Click "Execute" to generate new ROEX file.
+        Click "Execute" to generate a new ROEX file.
