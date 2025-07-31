@@ -19,20 +19,20 @@
 
 5. Functions
 
-    3.1 Data Monitoring
+    3.1 Observation Monitoring
 
         Import ROEX file, select type (atmospheric/ionospheric).
         Set SNR thresholds.
-        Plot original data or data changing rate.
+        Plot original observation or rate of change.
 
-    3.2 Data Combination
+    3.2 Observation Combination
 
-        Plot data combinations (MW, GF, IF, DIF) for quality check.
+        Plot observation combinations (MW, GF, IF, DIF) for quality check.
 
    3.3 Data Integrity
       Check the completeness of the data.
 
-    3.3 File Cutting
+    3.4 File Cutting
    
         Input time parameters and output file name.
         Click "Execute" to generate a new ROEX file.
